@@ -33,7 +33,7 @@ The rustfmt-expander.awk script matches key-value lines in the toml file, and ex
 
 Because **rustfmt** assumes a default value for any configuration setting it doesn't find in *rustfmt.toml*, the awk script can simply convert the explicit defaults to documentation without changing the meaning of the toml file.
 
-By uncommenting the configuration setting (`max_with =`, above) and providing your own value, it will be easy to see which settings you have changed from the defaults, and to diff your configuration against against future versions of the **rustfmt** default configuration.
+By uncommenting the configuration setting (`max_with =`, above) and providing your own value, it will be easy to see which settings you have changed from the defaults, and to diff your configuration against future versions of the **rustfmt** default configuration.
 
 Using the script
 -------------------------
@@ -53,7 +53,7 @@ When **rustfmt** is updated, run the commands again to pick up any new, stabiliz
 Contributing
 ------------
 
-Contributions are welcome and appreciated. Please feel free to create an issue on Github and/or submit Pull Requests with proposed changes to the repository.
+Your contributions are welcome and appreciated. Please submit Pull Requests and Issues at <https://github.com/ravyne/rustfmt-expander>.
 
 License
 -------
